@@ -1,11 +1,79 @@
-body{
-    background-color: rgb(103, 95, 95);
-    
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
 }
 
-h5{
-    color: red;
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 15px;}
+
+5 {
+    color: #ff0000;
+    font-size: 1.5rem;
+    margin: 0;
 }
-h2{
-    color: pink;
+
+h2 {
+    color: #ffc0cb;
+    margin: 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    font-size: 1rem;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.crt {
+    background-color: #ffea00;
+    color: rgb(0, 0, 0);
+}
+
+.crt:hover {
+    background-color: #45a049;
+}
+
+.delete, .button {
+    background-color: #00970d;
+    color: white;
+    margin-left: 10px;
+}
+
+.delete:hover, .button:hover {
+    background-color: #e60000;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    width: 300px;
+}
+
+li {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
